@@ -8,6 +8,7 @@ It is designed to find (local) solutions of mathematical optimization problems o
 x in R^n
 
 s.t.       g_L <= g(x) <= g_U
+
            x_L <=  x   <= x_U
 
 where f(x): R^n --> R is the objective function, and g(x): R^n --> R^m are the constraint functions. 
