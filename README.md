@@ -5,11 +5,15 @@ Ipopt (Interior Point OPTimizer, pronounced eye-pea-Opt) is a software package f
 It is designed to find (local) solutions of mathematical optimization problems of the form
 
    min     f(x)
+   
 x in R^n
 
-s.t.       g_L <= g(x) <= g_U
+s.t.       
 
-           x_L <=  x   <= x_U
+g_L <= g(x) <= g_U
+
+ x_L <=  x   <= x_U
+
 
 where f(x): R^n --> R is the objective function, and g(x): R^n --> R^m are the constraint functions. 
 The vectors g_L and g_U denote the lower and upper bounds on the constraints, and the vectors x_L and x_U are the bounds 
